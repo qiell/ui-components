@@ -19,6 +19,7 @@ import ShapeSheet from './shapes/_ShapeSheet';
 import ShapeCylinder from './shapes/_ShapeCylinder';
 import ShapeDottedCylinder from './shapes/_ShapeDottedCylinder';
 import TagCamera from './tags/_TagCamera';
+import TagReload from './tags/_TagReload';
 
 export const nodeBaseSize = 55;
 export const shapes = {
@@ -38,6 +39,7 @@ export const shapes = {
 export const tags = {
   camera: TagCamera,
   none: () => null,
+  reload: TagReload,
 };
 
 const labelWidth = nodeBaseSize * 2.5;

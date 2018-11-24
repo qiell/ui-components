@@ -4,7 +4,7 @@ import Shape from './_Shape';
   
 const renderTemplate = (attrs, { allowStroke = true } = {}) =>
   allowStroke ? (
-    <rect
+    <rect key={0}
       width="1.8"
       height="1.8"
       rx="0.4"

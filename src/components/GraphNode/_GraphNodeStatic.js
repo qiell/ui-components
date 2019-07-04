@@ -52,7 +52,6 @@ export const shapes = {
 };
 export const tags = {
   camera: TagCamera,
-  none: () => null,
   degraded: TagExclamation,
   failed: TagFailed,
   notpermitted: TagNotPermitted,
@@ -60,6 +59,7 @@ export const tags = {
   pending: TagPending,
   reload: TagReload,
   unknown: TagUnknown,
+  none: () => null,
 };
 
 const labelWidth = nodeBaseSize * 2.5;
